@@ -1,0 +1,179 @@
+/* Start of CSS */
+/* Box sizing for all elements */
+*{
+    box-sizing: border-box;
+}
+/*  */
+/* Fonts */
+@font-face{
+    font-family: "nexaBold";
+    src: url("../Fonts/nexaBold.otf")
+}
+@font-face{
+    font-family: "nexaLight";
+    src: url("../Fonts/nexaLight.otf")
+}
+@font-face{
+    font-family: "muncie";
+    src: url("../Fonts/muncie.ttf")
+}
+/*  */
+/* Main page bg/nametext */
+/* .loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #110f11;
+    z-index: 3;
+    transition: all .5s ease-out .2s;
+} */
+body{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #707070;
+    overflow-x: hidden;
+    background-size: cover;
+}
+#background{
+    position: fixed;
+    height: 100vh;
+    widows: 100vw;
+    z-index: -10;
+}
+.headerOverlay{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+     top: 0;
+     left: 0;
+     background: #707070;
+     z-index: -9;
+     opacity: .10;
+}
+#davidVizena{
+    position: relative;
+    opacity: .3;
+    top: 35%;
+}
+/*  */
+/*  */
+/* Contacts slide out */
+.bottomMenu{
+    background-image: url("../Images/contact.jpg");
+    background-position: center;
+    width: 100%;
+    height: 0;
+    position: fixed;
+    background-color: #ffffff;
+    overflow-y: hidden;
+    transition: 1s;
+    opacity: .9;
+}
+
+#contactText{
+    position: fixed;
+    top: 90%;
+    left: 1%;
+    transform: rotate(-90deg);
+    z-index: 9999;
+}
+#bottomMenu{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    opacity: .6;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.contactContent{
+    position: fixed;
+    top: 90%;
+    left: 1%;
+    transform: rotate(-90deg);
+    z-index: 9999;
+}
+#phoneNumber{
+    font-family: nexaLight; 
+     text-transform: uppercase;   
+     z-index: 5;
+}
+#email{
+    font-family: nexaLight; 
+     text-transform: uppercase;   
+     z-index: 5;
+}
+#address{
+    font-family: nexaLight;
+    text-transform: uppercase;
+    z-index: 5;
+}
+#twitterPic{
+    widows: 50px;
+    height: 50px;
+    padding: 5px;
+    z-index: 5;
+}
+#facebookPic{
+    widows: 50px;
+    height: 50px;
+    padding: 5px;
+    z-index: 5;
+}
+#linkedinPic{
+    widows: 50px;
+    height: 50px;
+    padding: 5px;
+    z-index: 5;
+}
+#stackoverflowPic{
+    widows: 50px;
+    height: 50px;
+    padding: 5px;
+    z-index: 5;
+}
+#githubPic{
+    widows: 50px;
+    height: 50px;
+    padding: 5px;
+    z-index: 5;
+}
+
+/*  */
+/* View work button */
+.viewWorkFill {
+	position: absolute;
+	top:0;
+	left:0;
+    background: #f0f0f0;
+    width:0%;
+	height:51px;
+    -webkit-transition: width .5s ease-in-out;
+    -moz-transition: width .5s ease-in-out;
+    -o-transition: width .5s ease-in-out;
+    transition: width .5s ease-in-out;
+}
+.viewWorkContent {
+	position: absolute;
+	top:0;
+	left:0;
+	height: 55px;
+    width:200px;
+	text-align: center;
+}
+.viewWorkBox:hover .viewWorkContent{
+	color: #707070;
+}
+.viewWorkBox:hover .viewWorkArrow{
+    color: #ff5733;
+}
+.viewWorkBox:hover .viewWorkFill {
+    width:100%;
+} */
+
+
+/*  */
+/*  */
